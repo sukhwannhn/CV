@@ -53,14 +53,14 @@ hr {
 
 table {
     margin: 20px auto;
-    border-spacing : 0.5rem;
+    border-spacing : 1.2rem;
     text-align: left;
 }
 
 ul {
     display: inline-block;
     text-align: left;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 
