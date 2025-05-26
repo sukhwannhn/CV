@@ -116,6 +116,10 @@ ul {
     height: 19%;
 }
 
+.LSH:hover {
+    content: url('https://sukhwannhn.github.io/CV/images/LSH_pencil3.png');
+}
+
 .profile {
     margin: 100px auto 100px auto;
 }
