@@ -1,122 +1,155 @@
 <!DOCTYPE html>
-<!-- html 5 -->
-<html>
-
-<head>
-  <meta charset="utf-8" />
-  <title>💓 Sukhwan's Personal Site</title>
-  <link rel="stylesheet" href="css/styles.css">
-
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sukhwan Lim</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images/LSH.png" width="150" height="150" alt="Sukhwan profile picture" />
-      </td>
-      <td>
-        <h1>Sukhwan Lim</h1>
-        <p>
-          <em>Cloud Engineer of <strong><a href="https://www.samsungsds.com">Samsung SDS</a></strong></em>
-        </p>
-        <p>
-          I specialized in Cloud Architecture, especially of
-          <a href="https://cloud.samsungsds.com">SCP</a> and AWS
-        </p>
-      </td>
-    </tr>
-  </table>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Sukhwan.</h1>
+        <h2>a <span class="pro">cloud</span> engineer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
 
-  <hr />
-  <h3>Work Experience</h3>
-  <table cellspacing="6">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2009-2010</td>
-        <td>CDN(Contents Delivery Network) sales engineer</td>
-      </tr>
-      <tr>
-        <td>2010-2013</td>
-        <td>System engineer in Frankfurt for Samsung Mobile Apps</td>
-      </tr>
-      <td>2022 -</td>
-      <td>Cloud Engineer for SCP (Samsung Cloud Platform)</td>
-    </tbody>
-    <tfoot></tfoot>
-  </table>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="LSH" src="images/LSH.png" alt="">
+            <h2>Hello.</h2>
+            <p class="intro">I specialized in Cloud Architecture, especially of <a
+                    href="https://cloud.samsungsds.com">SCP</a> and AWS.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="cloud-img" src="images/cloud-hosting.png" width="80" height="80" alt="">
+                <h3>Cloud management</h3>
+                <p>I started my career as a Unix system engineer. Then I absorbed related tech areas like
+                    Database(especially Oracle), CDN, Cloud (especially AWS and SCP) and Kubernetes. </p>
+            </div>
+            <div class="skill-row">
+                <img class="python-img" src="images/python.png" width="80" height="80" alt="">
+                <h3>Python Development</h3>
+                <p>I'm quite interested in almost every area of Python application like Task automation, Web
+                    development, Data analytics, machine learning, AI, etc.</p>
+            </div>
+            <div class="skill-detail-row">
+                <table>
+                    <tr>
+                        <td>
+                            <table cellspacing="8">
+                                <tr>
+                                    <td>Cloud : SCP, AWS</td>
+                                    <td>★★★★</td>
+                                </tr>
+                                <tr>
+                                    <td>Linux : RedHat, Ubuntu</td>
+                                    <td>★★★★</td>
+                                </tr>
+                                <tr>
+                                    <td>Kubernetes, Container</td>
+                                    <td>★★★★</td>
+                                </tr>
+                                <tr>
+                                    <td>DB : Postgresql, Oracle</td>
+                                    <td>★★</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table cellspacing="8">
+                                <tr>
+                                    <td>Korean (mother tongue)</td>
+                                    <td>★★★★</td>
+                                </tr>
+                                <td>English (quite good)</td>
+                                <td>★★★★</td>
+                    </tr>
+                    <tr>
+                        <td>German (lived for 3 years in Frankfurt)</td>
+                        <td>★</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                </td>
+                </tr>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div class="experience">
+            <h2>Work Experience.</h2>
+            <div class="expe-row">
+                <table cellspacing="6">
+                    <thead>
+                        <tr>
+                            <th>Dates</th>
+                            <th>Work</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2009-2010</td>
+                            <td>CDN(Contents Delivery Network) sales engineer</td>
+                        </tr>
+                        <tr>
+                            <td>2010-2013</td>
+                            <td>System engineer in Frankfurt for Samsung Mobile Apps</td>
+                        </tr>
+                        <td>2022 -</td>
+                        <td>Cloud Engineer for SCP (Samsung Cloud Platform)</td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div class="certificate">
+            <h2>My Certificates.</h2>
+            <div class="certi-row">
+                <ul>
+                    <li>AWS Certified Solution Architect - Professional</li>
+                    <li>AWS Certified Advanced Networking - Specialty</li>
+                    <li>AWS Certified BigData - Specialty</li>
+                    <li>SCP Cloud Engineer</li>
+                    <li>CKA (Certified Kubernetes Administrator)</li>
+                    <li>RHCE (RedHat Certified Engineer)</li>
+                    <li>OCM 9i (Oracle Certified Master)</li>
+                    <li>CISSP</li>
+                    <li>PMP</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you're interested in Cloud and Python as much as I do.</h3>
+            <p class="contact-message">Let's talk about how awesome they are!</p>
+            <a class="btn" href="mailto:sukhwan7@gmail.com">Contact Me</a>
+        </div>
+    </div>
 
-  <br>
-  <hr />
-  <h3>Certificates</h3>
-  <ul>
-    <li>AWS Certified Solution Architect - Professional</li>
-    <li>AWS Certified Advanced Networking - Specialty</li>
-    <li>AWS Certified BigData - Specialty</li>
-    <li>SCP Cloud Engineer</li>
-    <li>CKA (Certified Kubernetes Administrator)</li>
-    <li>RHCE (RedHat Certified Engineer)</li>
-    <li>OCM 9i (Oracle Certified Master)</li>
-    <li>CISSP</li>
-    <li>PMP</li>
-  </ul>
 
-  <br>
-  <hr />
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table cellspacing="8">
-          <tr>
-            <td>Cloud : SCP, AWS</td>
-            <td>★★★★</td>
-          </tr>
-          <tr>
-            <td>Linux : RedHat, Ubuntu</td>
-            <td>★★★★</td>
-          </tr>
-          <tr>
-            <td>Kubernetes, Container</td>
-            <td>★★★★</td>
-          </tr>
-          <tr>
-            <td>DB : Postgresql, Oracle</td>
-            <td>★★</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="8">
-          <tr>
-            <td>Korean (mother tongue)</td>
-            <td>★★★★</td>
-          </tr>
-          <td>English (quite good)</td>
-          <td>★★★★</td>
-    </tr>
-    <tr>
-      <td>German (lived for 3 years in Frankfurt)</td>
-      <td>★</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
-  </td>
-  </tr>
-  </table>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright-msg">© 2025 Sukhwan Lim @Samsung SDS.</p>
+    </div>
 
-  <hr />
-  <p><a href="hobbies.html">My Hobbies</a></p>
-  <p><a href="contact-me.html">Contact Me</a></p>
+
 </body>
 
 </html>
